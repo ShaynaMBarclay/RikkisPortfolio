@@ -1,3 +1,17 @@
+@keyframes waveIn {
+  0% {
+    opacity: 0;
+    transform: rotate(-2deg) translateY(20px);
+  }
+  50% {
+    transform: rotate(2deg) translateY(-4px);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg) translateY(0);
+  }
+}
+
 .navbar {
   position: fixed;
   bottom: 0;
@@ -22,6 +36,8 @@
   text-shadow: 
   2px 2px 4px rgba(46, 70, 48, 0.7),
   0 0 8px rgba(46, 70, 48, 0.4);
+  animation: waveIn 1.4s ease;
+  letter-spacing: 2rem;
 }
 
 .navbar-buttons {
