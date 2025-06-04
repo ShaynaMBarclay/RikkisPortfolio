@@ -1,0 +1,40 @@
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5fdf6; 
+  backdrop-filter: blur(10px); 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+  border-top: 1.6px solid rgba(0, 0, 0, 0.037);
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.navbar h1 {
+  font-family: "Edu QLD Hand", cursive;
+  font-size: 3rem;
+  color: #2e4630;
+  margin: 0;
+}
+
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+
+}
+
+
+.icon-button {
+  color: #2e4630;
+  font-size: 3rem;
+  transition: color 0.3s ease;
+  
+}
+
+.icon-button:hover {
+  color: #5fa35f;
+}

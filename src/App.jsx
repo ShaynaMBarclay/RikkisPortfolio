@@ -1,8 +1,18 @@
 import React from 'react'
+import "./styles/App.css";
 
-const App = () => {
+import Portfolio from "./Portfolio.jsx";
+import Navbar from "./components/Navbar.jsx";
+
+function App() {
   return (
-    <div>App</div>
+    <>
+
+    <div className="page-container">
+      <Navbar/>
+      <Portfolio/>
+    </div>
+    </>
   )
 }
 
