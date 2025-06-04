@@ -17,8 +17,11 @@
 .navbar h1 {
   font-family: "Edu QLD Hand", cursive;
   font-size: 3rem;
-  color: #2e4630;
+  color: #bce0bf;
   margin: 0;
+  text-shadow: 
+  2px 2px 4px rgba(46, 70, 48, 0.7),
+  0 0 8px rgba(46, 70, 48, 0.4);
 }
 
 .navbar-buttons {
@@ -36,5 +39,5 @@
 }
 
 .icon-button:hover {
-  color: #5fa35f;
+  color: #bce0bf;
 }
