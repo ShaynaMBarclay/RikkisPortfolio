@@ -6,6 +6,7 @@
 
 * {
   box-sizing: border-box;
+  cursor: inherit;
 }
 
 body {
@@ -13,4 +14,10 @@ body {
   background-color: rgba(128, 128, 128, 0.205);
    margin: 0;
   padding: 0;
+  cursor: url('/cursor.png'), auto;
 }
+
+html, body {
+  cursor: url('/cursor.png'), auto;
+}
+

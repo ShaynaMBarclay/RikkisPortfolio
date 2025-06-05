@@ -12,6 +12,14 @@
   }
 }
 
+.navbar,
+.navbar *,
+.navbar h1,
+.navbar-buttons,
+.icon-button {
+  cursor: url('/cursor.png'), auto !important;
+}
+
 .navbar {
   position: fixed;
   bottom: 0;
