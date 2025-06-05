@@ -21,3 +21,14 @@ html, body {
   cursor: url('/cursor.png'), auto;
 }
 
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 7rem;
+  }
+}
+
+@media (max-width: 1024px) {
+   body {
+    padding-bottom: 7rem;
+  }
+}
