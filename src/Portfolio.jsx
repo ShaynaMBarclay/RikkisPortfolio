@@ -136,8 +136,10 @@ const imageVariants = {
 const Portfolio = () => {
   return (
     <div className="portfolio">
+       <h2 className="portfolio-title">My Work</h2>
       <motion.div
         className="portfolio-grid"
+        
         initial="hidden"
         animate="show"
         variants={{

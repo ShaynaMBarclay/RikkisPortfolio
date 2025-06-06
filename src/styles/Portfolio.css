@@ -7,7 +7,24 @@
   padding-bottom: 7rem;
 }
 
+.portfolio-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 3rem;
+   text-shadow: 
+  2px 2px 4px rgba(46, 70, 48, 0.7),
+  0 0 8px rgba(46, 70, 48, 0.4);
+  color: #6f6f6f;
+  font-family: "Dancing Script", cursive;
+  letter-spacing: 1rem;
+  transform: translateY(-30px);
 
+   opacity: 0;
+  transform: translateY(-30px);
+  animation: fadeSlideIn 1s ease forwards;
+  animation-delay: 0.5s;
+  
+}
 
 @keyframes fadeSlideIn {
   to {
